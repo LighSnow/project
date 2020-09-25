@@ -15,7 +15,10 @@ console.log(num);
 //   return (a + b);
 // }
 
-
+function ret() {
+  let num = 50;
+  return num;
+}
 
 
 const anotherNum = ret();
@@ -24,7 +27,7 @@ console.log(anotherNum);
 const logger = function () {
   console.log("Hello");
 };
-
+ 
 logger();
 
 const calc = (a, b) => {   // const calc = (a, b) => a + b;
